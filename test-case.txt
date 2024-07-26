@@ -1,0 +1,3 @@
+curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": {"content": "I want to book an appointment with John Doe on July 20th, 2024 from 9 AM to 10 AM.", "id": "chat1"}}'
+
+curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"message": {"content": "I want to book an appointment with Jane Doe on July 20th, 2024 from 10 AM to 12 PM.", "id": "chat1"}}'
